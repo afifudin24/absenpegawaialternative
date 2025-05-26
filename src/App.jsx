@@ -96,7 +96,7 @@ export default function App() {
         gambar: imageBase64,
       };
       setStatus("Loading .....");
-      const res = await fetch("http://absenpegawai.adservices.site/absen.php", {
+      const res = await fetch("https://absenpegawai.adservices.site/absen.php", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),
